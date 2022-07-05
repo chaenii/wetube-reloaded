@@ -1,3 +1,1 @@
-import { Express } from "express";
-
-console.log("Hi");
+console.log("Hello");
