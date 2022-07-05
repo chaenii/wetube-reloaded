@@ -7,7 +7,7 @@
     "url": "git+https://github.com/chaenii/wetube-reloaded.git"
   },
   "scripts": {
-    "king": "node index.js"
+    "dev": "babel-node index.js"
   },
   "keywords": [
     "NodeJS",
@@ -24,5 +24,10 @@
   "homepage": "https://github.com/chaenii/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6"
   }
 }
