@@ -24,6 +24,7 @@
   "homepage": "https://github.com/chaenii/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "mongoose": "^6.4.5",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
